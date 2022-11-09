@@ -5,6 +5,7 @@ import Navbar from "./Navbar"
 import { ChakraProvider } from '@chakra-ui/react'
 import { Grid, GridItem } from '@chakra-ui/react'
 import Ca from "./Ca"
+import Footer from "./Footer"
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           <Card />
           <Card />
         </Grid>
+
+        <Footer />
 
       </ChakraProvider>
 
